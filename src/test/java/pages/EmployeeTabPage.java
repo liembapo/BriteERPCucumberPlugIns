@@ -23,7 +23,7 @@ public class EmployeeTabPage {
     public WebElement firstEmployeeProfileKanban;
 
     @FindBy (xpath = "//div[@class = 'oe_kanban_global_click o_kanban_record'][2]")
-    public  WebElement secondEmployeePrifileKanban;
+    public  WebElement secondEmployeeProfileKanban;
 
     @FindBy(xpath = "//button[@class='btn btn-icon fa fa-lg fa-th-large o_cp_switch_kanban active']")
     public WebElement gridButton;
