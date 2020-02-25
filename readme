@@ -1,0 +1,8 @@
+1.We create Configuration.properties file as the detail of our key word data.
+2.We create utilities package for and store all reusable code
+3.We create Config.java as reader of our Configuration.properties file.
+4.We create Driver with Singleton design pattern.
+5.We store all the web element based on PageObjectModel pattern on pages package.
+6.We use Cucumber and Gherkin language
+7.We JUnit as the actual test.
+
