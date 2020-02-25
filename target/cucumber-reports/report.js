@@ -19,8 +19,13 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Employee module download file verification",
+  "description": "",
+  "keyword": "Scenario"
+});
 formatter.step({
-  "name": "user clicks on an Employee profile",
+  "name": "User clicks on an Employee profile",
   "keyword": "And "
 });
 formatter.match({
@@ -30,20 +35,14 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is able to see Employee Detailed Page (EDP)",
+  "name": "User is able to see Employee Detailed Page (Antoine Langlais)",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_EDP()"
+  "location": "Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_Antoine_Langlais()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: User is not on specific employee page expected:\u003c[Antoine Langlai]s - Odoo\u003e but was:\u003c[Employee]s - Odoo\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat step_definitions.briteERPEmployeeModule.Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_EDP(Download_attachment_file_btn_Step_Defs.java:30)\r\n\tat ✽.User is able to see Employee Detailed Page (EDP)(src/test/resources/features/able_to_download_attachment.feature:9)\r\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "name": "Employee module download file verification",
-  "description": "",
-  "keyword": "Scenario"
+  "status": "passed"
 });
 formatter.step({
   "name": "User click on Attachment on EDP header (dropdown available if it contains multiple files)",
@@ -53,7 +52,7 @@ formatter.match({
   "location": "Download_attachment_file_btn_Step_Defs.user_click_on_Attachment_on_EDP_header_dropdown_available_if_it_contains_multiple_files()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User able to see all displayed files",
@@ -63,7 +62,7 @@ formatter.match({
   "location": "Download_attachment_file_btn_Step_Defs.user_able_to_see_all_displayed_files()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User click on the latest uploaded file",
@@ -73,7 +72,7 @@ formatter.match({
   "location": "Download_attachment_file_btn_Step_Defs.user_click_on_the_latest_uploaded_file()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be able to download the file",
@@ -83,7 +82,7 @@ formatter.match({
   "location": "Download_attachment_file_btn_Step_Defs.user_should_be_able_to_download_the_file()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "User is already on Employee module page.",
@@ -100,31 +99,30 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Employee module download button verification",
+  "description": "",
+  "keyword": "Scenario"
+});
 formatter.step({
-  "name": "user clicks on an Employee profile",
+  "name": "User clicks on an Employee profile (Ashley Presley)",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_clicks_on_an_Employee_profile()"
+  "location": "Download_attachment_file_btn_Step_Defs.user_clicks_on_an_Employee_profile_Ashley_Presley()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is able to see Employee Detailed Page (EDP)",
+  "name": "User is able to see Employee Detailed Page (Ashley Presley)",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_EDP()"
+  "location": "Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_Ashley_Presley()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: User is not on specific employee page expected:\u003c[Antoine Langlai]s - Odoo\u003e but was:\u003c[Employee]s - Odoo\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat step_definitions.briteERPEmployeeModule.Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_EDP(Download_attachment_file_btn_Step_Defs.java:30)\r\n\tat ✽.User is able to see Employee Detailed Page (EDP)(src/test/resources/features/able_to_download_attachment.feature:9)\r\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "name": "Employee module download button verification",
-  "description": "",
-  "keyword": "Scenario"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should not see the file button attachment",
@@ -134,6 +132,6 @@ formatter.match({
   "location": "Download_attachment_file_btn_Step_Defs.user_should_not_see_the_file_button_attachment()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });
