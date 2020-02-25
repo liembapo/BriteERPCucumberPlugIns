@@ -1,5 +1,6 @@
 package utilities;
 
+import org.junit.rules.Timeout;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,6 +10,7 @@ import pages.LoginPage;
 
 import java.io.File;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 public class Reusable {
     public static void login_nav_to_employee_tab(){
@@ -65,5 +67,8 @@ public class Reusable {
             return false;
         }
 
+        public static void implicitWait(int time){
+        Driver.getDriver().manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS  );
+        }
 
 }
