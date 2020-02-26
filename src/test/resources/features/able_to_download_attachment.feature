@@ -7,7 +7,7 @@ Feature: Download
     Given User is on employee module page
 
 
-
+  @b
   Scenario: Employee module download file verification
 
     And   User clicks on an Employee profile
@@ -16,7 +16,7 @@ Feature: Download
     And   User able to see all displayed files
     And   User click on the latest uploaded file
     Then  User should be able to download the file
-
+  @b
   Scenario: Employee module download button verification
     And   User clicks on an Employee profile (Ashley Presley)
     And   User is able to see Employee Detailed Page (Ashley Presley)

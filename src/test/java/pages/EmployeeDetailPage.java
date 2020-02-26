@@ -128,4 +128,6 @@ public class EmployeeDetailPage {
     @FindBy(xpath = "//div[@class='oe_kanban_details']")
     public WebElement tableForEmployee;
 
+    @FindBy (xpath = "//button [@class ='btn btn-sm oe_stat_button']")
+    public WebElement timesheetButton;
 }
