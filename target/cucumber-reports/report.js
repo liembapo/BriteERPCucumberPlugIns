@@ -1,7 +1,7 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/able_to_download_attachment.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/list_and_grid_employees.feature");
 formatter.feature({
-  "name": "Download",
-  "description": "  User Story  : 182\n  Test case   : 225 , 226\n  as a Manager/Officer user should see all attached/uploaded files as a number of total files in EDP header, able to download it",
+  "name": "able to see employee list and grid",
+  "description": "  TEstCase: PROQ 228 - PROQ 174 USER STORY\n  Employee Module- View List and Grid of Employees",
   "keyword": "Feature"
 });
 formatter.background({
@@ -19,71 +19,35 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Employee list button click functionality",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@listE"
+    }
+  ]
+});
 formatter.step({
-  "name": "user clicks on an Employee profile",
-  "keyword": "And "
+  "name": "User clicks on the list option on the right corner",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_clicks_on_an_Employee_profile()"
+  "location": "List_and_grid_Step_defs.user_clicks_on_the_list_option_on_the_right_corner()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is able to see Employee Detailed Page (EDP)",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_EDP()"
-});
-formatter.result({
-  "error_message": "org.junit.ComparisonFailure: User is not on specific employee page expected:\u003c[Antoine Langlai]s - Odoo\u003e but was:\u003c[Employee]s - Odoo\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat step_definitions.briteERPEmployeeModule.Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_EDP(Download_attachment_file_btn_Step_Defs.java:30)\r\n\tat ✽.User is able to see Employee Detailed Page (EDP)(src/test/resources/features/able_to_download_attachment.feature:9)\r\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "name": "Employee module download file verification",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "name": "User click on Attachment on EDP header (dropdown available if it contains multiple files)",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_click_on_Attachment_on_EDP_header_dropdown_available_if_it_contains_multiple_files()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "User able to see all displayed files",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_able_to_see_all_displayed_files()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "User click on the latest uploaded file",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_click_on_the_latest_uploaded_file()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "User should be able to download the file",
+  "name": "the list of employees displayed on a new page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_should_be_able_to_download_the_file()"
+  "location": "List_and_grid_Step_defs.the_list_of_employees_displayed_on_a_new_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "User is already on Employee module page.",
@@ -100,40 +64,34 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Employee grid button click functionality",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@listB"
+    }
+  ]
+});
 formatter.step({
-  "name": "user clicks on an Employee profile",
-  "keyword": "And "
+  "name": "User clicks on the grid on the right corner",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_clicks_on_an_Employee_profile()"
+  "location": "List_and_grid_Step_defs.user_clicks_on_the_grid_on_the_right_corner()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is able to see Employee Detailed Page (EDP)",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_EDP()"
-});
-formatter.result({
-  "error_message": "org.junit.ComparisonFailure: User is not on specific employee page expected:\u003c[Antoine Langlai]s - Odoo\u003e but was:\u003c[Employee]s - Odoo\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat step_definitions.briteERPEmployeeModule.Download_attachment_file_btn_Step_Defs.user_is_able_to_see_Employee_Detailed_Page_EDP(Download_attachment_file_btn_Step_Defs.java:30)\r\n\tat ✽.User is able to see Employee Detailed Page (EDP)(src/test/resources/features/able_to_download_attachment.feature:9)\r\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "name": "Employee module download button verification",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "name": "User should not see the file button attachment",
+  "name": "the grid is displayed",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Download_attachment_file_btn_Step_Defs.user_should_not_see_the_file_button_attachment()"
+  "location": "List_and_grid_Step_defs.the_grid_is_displayed()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });
