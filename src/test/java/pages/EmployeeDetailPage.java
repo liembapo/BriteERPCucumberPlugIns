@@ -102,7 +102,7 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "//label[contains(text(),'Job Position')]")
     public WebElement jobPosition;
 
-    @FindBy (xpath = "//label[@for='o_field_input_1040']")
+    @FindBy (xpath = "//table[2]//tbody[1]//tr[4]//td[1]")
     public WebElement manager;
 
     @FindBy (xpath = "//label[contains(text(),'Coach')]")
