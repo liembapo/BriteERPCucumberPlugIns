@@ -69,7 +69,7 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "(//a[@class='o_employee_redirect'])[1]")
     public WebElement firstRelatedEmployee;
 
-    @FindBy (xpath = "(//h5/b)[1]")
+    @FindBy (xpath = "(//h5/b)[2]")
     public WebElement firstRelatedEmployeeName;
 
     @FindBy (xpath = "//a[contains(text(),'Work Information')]")
