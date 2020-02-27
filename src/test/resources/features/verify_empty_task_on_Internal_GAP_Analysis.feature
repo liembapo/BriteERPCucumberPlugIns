@@ -3,7 +3,7 @@ Feature: verify empty task on Internal GAP-Analysis
   User Story  : 185
   Test case   : 204
 
-  @b
+  @bo
     Scenario: Verify empty task on Internal GAP Analysis
     Given User is on employee module page
     And   User clicks on an Employee profile
