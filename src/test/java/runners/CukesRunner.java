@@ -10,11 +10,11 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber-reports",
         features = "src/test/resources/features",
         glue = "step_definitions",
-        dryRun = false,
-        tags = "@t"
+        dryRun = true,
+        tags = "@logTest"
 
-
+//        tags = "@checkSelectOption"
 
 )
-public class   CukesRunner {
+public class CukesRunner {
 }
