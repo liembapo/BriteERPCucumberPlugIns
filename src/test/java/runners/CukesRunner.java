@@ -10,10 +10,8 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber-reports",
         features = "src/test/resources/features",
         glue = "step_definitions",
-        dryRun = true,
-        tags = "@logTest"
-
-//        tags = "@checkSelectOption"
+        dryRun = false
+//        tags = "@pumbik"
 
 )
 public class CukesRunner {
