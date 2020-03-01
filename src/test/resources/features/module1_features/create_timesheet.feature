@@ -1,10 +1,10 @@
-@Slava
+
 Feature: Timesheet
   User Story  : 184
   Test case   : 210
   User should be able to create and delete employee's timesheet
 
-  @slava1
+  @Smoke
   Scenario: creating of Timesheet
 #  Background: User is already on Employee module page.
     Given User is on employee module page

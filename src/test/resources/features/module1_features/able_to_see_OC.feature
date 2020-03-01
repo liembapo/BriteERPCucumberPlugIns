@@ -1,8 +1,8 @@
-Feature: able to see OC in EDP
+Feature: able to see Organization Chart in EDP
   User Story: 177
   Test case: 205
 
-  @Anton2
+  @Smoke
   Scenario: verify OC is displayed in EDP
     Given User is on employee module page
     When User clicks on an Employee profile
