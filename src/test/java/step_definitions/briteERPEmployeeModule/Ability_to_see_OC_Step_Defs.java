@@ -5,7 +5,7 @@ import org.junit.Assert;
 import pages.EmployeeDetailPage;
 import pages.EmployeeTabPage;
 
-public class Ability_to_see_OC {
+public class Ability_to_see_OC_Step_Defs {
 
     EmployeeTabPage employeeTabPage =new EmployeeTabPage();
     EmployeeDetailPage employeeDetailPage = new EmployeeDetailPage();

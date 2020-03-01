@@ -8,7 +8,7 @@ import org.openqa.selenium.Keys;
 import pages.EmployeeTabPage;
 import utilities.Reusable;
 
-public class Add_employee {
+public class Add_employee_Step_Defs {
     EmployeeTabPage employeeTabPage =new EmployeeTabPage();
 
     @Given("user click on search box")

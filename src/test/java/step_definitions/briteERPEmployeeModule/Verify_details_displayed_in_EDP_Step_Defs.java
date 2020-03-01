@@ -5,7 +5,7 @@ import org.junit.Assert;
 import pages.EmployeeDetailPage;
 import pages.EmployeeTabPage;
 
-public class Verify_details_displayed_in_EDP {
+public class Verify_details_displayed_in_EDP_Step_Defs {
     EmployeeTabPage employeeTabPage = new EmployeeTabPage();
     EmployeeDetailPage employeeDetailPage = new EmployeeDetailPage();
 
