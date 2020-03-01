@@ -4,7 +4,7 @@ Feature: Add employees to dashboard
   as a Manager OR Officer user should be able to add Employees module to Dashboard, name it by any name and have it present in Dashboard
 
 
-@pumbik
+  @module3
   Scenario: Employee Module add Employees module to Dashboard
 
     Given User is on employee module page

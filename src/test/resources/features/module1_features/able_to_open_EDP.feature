@@ -4,6 +4,7 @@ Feature: open EDP
   Test Case: 202
 
   @Smoke
+  @module1
 Scenario: Employee Profile verification
 
 Given User is on employee module page

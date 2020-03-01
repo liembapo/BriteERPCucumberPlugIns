@@ -6,14 +6,14 @@ Feature: able to see employee list and grid
   Background: User is already on Employee module page.
     Given User is on employee module page
 
-    @listE
+  @module4
   Scenario: Employee list button click functionality
     When User clicks on the list option on the right corner
     Then the list of employees displayed on a new page
 
 
 
-      @listB
+  @module4
     Scenario:Employee grid button click functionality
     When User clicks on the grid on the right corner
     Then the grid is displayed

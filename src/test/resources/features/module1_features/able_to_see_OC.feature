@@ -3,6 +3,7 @@ Feature: able to see Organization Chart in EDP
   Test case: 205
 
   @Smoke
+  @module1
   Scenario: verify OC is displayed in EDP
     Given User is on employee module page
     When User clicks on an Employee profile
