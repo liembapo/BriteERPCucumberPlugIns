@@ -3,7 +3,7 @@ Feature: ability to send message in EDP
   User story: 179
   Test case: 194
 
-  @Anton3
+  @Smoke
   Scenario: verify ability to send a message in EDP
     Given User is on employee module page
     When User clicks on an Employee profile

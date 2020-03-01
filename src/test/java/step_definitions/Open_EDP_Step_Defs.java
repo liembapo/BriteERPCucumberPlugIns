@@ -1,4 +1,4 @@
-package step_definitions.briteERPEmployeeModule;
+package step_definitions;
 
 import pages.EmployeeDetailPage;
 import pages.EmployeeTabPage;
