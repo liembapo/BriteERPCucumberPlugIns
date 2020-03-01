@@ -5,6 +5,7 @@ Feature: Timesheet
   User should be able to create and delete employee's timesheet
 
   @Smoke
+  @module1
   Scenario: creating of Timesheet
 #  Background: User is already on Employee module page.
     Given User is on employee module page

@@ -11,6 +11,9 @@ formatter.scenario({
   "tags": [
     {
       "name": "@Smoke"
+    },
+    {
+      "name": "@module1"
     }
   ]
 });
@@ -93,6 +96,9 @@ formatter.scenario({
   "tags": [
     {
       "name": "@Smoke"
+    },
+    {
+      "name": "@module1"
     }
   ]
 });
@@ -145,6 +151,9 @@ formatter.scenario({
   "tags": [
     {
       "name": "@Smoke"
+    },
+    {
+      "name": "@module1"
     }
   ]
 });
@@ -197,6 +206,9 @@ formatter.scenario({
   "tags": [
     {
       "name": "@Smoke"
+    },
+    {
+      "name": "@module1"
     }
   ]
 });
@@ -279,6 +291,9 @@ formatter.scenario({
   "tags": [
     {
       "name": "@Smoke"
+    },
+    {
+      "name": "@module1"
     }
   ]
 });

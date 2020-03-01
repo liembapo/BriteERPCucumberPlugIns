@@ -3,7 +3,7 @@ Feature: verify all details are displayed in EDP
   User story: 246
   Test case: 247
 
-  @Anton4
+  @module4
   Scenario: verification of EDP details displayed
     Given User is on employee module page
     When User clicks on an Employee profile

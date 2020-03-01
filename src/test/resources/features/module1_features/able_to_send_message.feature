@@ -4,6 +4,7 @@ Feature: ability to send message in EDP
   Test case: 194
 
   @Smoke
+  @module1
   Scenario: verify ability to send a message in EDP
     Given User is on employee module page
     When User clicks on an Employee profile

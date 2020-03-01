@@ -1,6 +1,6 @@
 Feature: Follow unfollow
   tc :207
-@t
+  @module3
   Scenario: Verify Follow unfollow functionality
     Given User is on employee module page
     And   User is able to see employees

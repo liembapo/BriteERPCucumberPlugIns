@@ -2,7 +2,8 @@ Feature: Organization chart
   User Story  : 178
   Test case   : 209
 
-  @ValentynTests
+
+  @module2
   Scenario: Verify selection of the related employees
     Given User is on employee module page
     And   User clicks on an Employee profile

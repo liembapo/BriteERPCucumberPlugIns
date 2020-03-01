@@ -3,6 +3,7 @@ Feature: Organization chart
   Test case   : 236
 
   @Smoke
+    @module1
   Scenario: Verify marking messages as Todo
     Given User is on employee module page
     And   User clicks on an Employee profile

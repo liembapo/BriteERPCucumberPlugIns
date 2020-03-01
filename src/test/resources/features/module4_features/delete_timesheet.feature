@@ -4,7 +4,7 @@ Feature: Timesheet
   Test case   : 252
   User should be able to delete employee's timesheet
 
-  @slava2
+  @module4
   Scenario: deleting of Timesheet
     #  Background: User is already on Employee module page.
     Given User is on employee module page

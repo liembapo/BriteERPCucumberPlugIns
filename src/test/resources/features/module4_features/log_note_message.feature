@@ -3,7 +3,7 @@ Feature: The Verification of Log note functionality
   Test case : 213
   As a Manager/Officer user should be able to log in with user name and password
 
-  @logTest
+  @module4
   Scenario: Verification of Log note functionality
     Given User is on employee module page
     When User clicks on an Employee profile
