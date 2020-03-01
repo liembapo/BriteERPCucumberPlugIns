@@ -7,7 +7,7 @@ import pages.EmployeeDetailPage;
 import pages.EmployeeTabPage;
 import utilities.Reusable;
 
-public class Send_message_in_EDP {
+public class Send_message_in_EDP_Step_Defs {
     EmployeeTabPage employeeTabPage = new EmployeeTabPage();
     EmployeeDetailPage employeeDetailPage = new EmployeeDetailPage();
 
