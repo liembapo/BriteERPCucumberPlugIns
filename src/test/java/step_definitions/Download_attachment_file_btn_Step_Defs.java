@@ -1,4 +1,4 @@
-package step_definitions.briteERPEmployeeModule;
+package step_definitions;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,12 +15,13 @@ public class Download_attachment_file_btn_Step_Defs {
 
     @Given("User is on employee module page")
     public void user_is_on_employee_module_page() {
+
         Reusable.login_nav_to_employee_tab();
     }
 
     @Given("User clicks on an Employee profile")
     public void user_clicks_on_an_Employee_profile() {
-
+        Reusable.waitForVisibility(employeeTabPage.firstEmployeeProfileKanban,10);
        employeeTabPage.firstEmployeeProfileKanban.click();
 
     }
@@ -35,6 +36,7 @@ public class Download_attachment_file_btn_Step_Defs {
 
     @Given("User click on Attachment on EDP header \\(dropdown available if it contains multiple files)")
     public void user_click_on_Attachment_on_EDP_header_dropdown_available_if_it_contains_multiple_files() {
+        Reusable.waitForVisibility(employeeDetailPage.attachmentButton,10);
        employeeDetailPage.attachmentButton.click();
     }
 
@@ -57,6 +59,7 @@ public class Download_attachment_file_btn_Step_Defs {
 
     @Then("User should be able to download the file")
     public void user_should_be_able_to_download_the_file() {
+        Reusable.waitForVisibility(employeeDetailPage.attachmentButton,10);
         employeeDetailPage.attachmentButton.click();
         Reusable.waitForVisibility(employeeDetailPage.latestUploadedFile,10);
         String latestFile = employeeDetailPage.latestUploadedFile.getText();
@@ -66,6 +69,7 @@ public class Download_attachment_file_btn_Step_Defs {
     }
     @Given("User clicks on an Employee profile \\(Ashley Presley)")
     public void user_clicks_on_an_Employee_profile_Ashley_Presley() {
+        Reusable.waitForVisibility(employeeTabPage.secondEmployeeProfileKanban,10);
         employeeTabPage.secondEmployeeProfileKanban.click();
     }
 

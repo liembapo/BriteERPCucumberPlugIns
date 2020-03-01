@@ -3,7 +3,7 @@ Feature: open EDP
   User Story: 176
   Test Case: 202
 
-@Anton
+  @Smoke
 Scenario: Employee Profile verification
 
 Given User is on employee module page

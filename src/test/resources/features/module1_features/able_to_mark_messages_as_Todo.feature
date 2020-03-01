@@ -2,7 +2,7 @@ Feature: Organization chart
   User Story  : 189
   Test case   : 236
 
-  @ValentynTests
+  @Smoke
   Scenario: Verify marking messages as Todo
     Given User is on employee module page
     And   User clicks on an Employee profile

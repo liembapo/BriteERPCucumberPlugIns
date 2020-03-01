@@ -1,4 +1,4 @@
-package step_definitions.briteERPEmployeeModule;
+package step_definitions;
 
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
