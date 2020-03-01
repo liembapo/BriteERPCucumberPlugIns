@@ -7,7 +7,7 @@ import pages.EmployeeDetailPage;
 import pages.EmployeeTabPage;
 import utilities.Reusable;
 
-public class List_and_grid_Step_defs {
+public class List_and_grid__Step_Defs {
         EmployeeTabPage employeeTabPage = new EmployeeTabPage();
         EmployeeDetailPage employeeDetailPage = new EmployeeDetailPage();
 

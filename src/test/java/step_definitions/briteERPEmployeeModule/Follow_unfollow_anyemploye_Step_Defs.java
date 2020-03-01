@@ -7,7 +7,7 @@ import pages.EmployeeFollowPage;
 import utilities.Driver;
 import utilities.Reusable;
 
-public class Follow_unfollow_anyemploye {
+public class Follow_unfollow_anyemploye_Step_Defs {
 
     EmployeeFollowPage followPage = new EmployeeFollowPage();
 

@@ -6,7 +6,7 @@ import org.junit.Assert;
 import pages.EmployeeDetailPage;
 import utilities.Reusable;
 
-public class SelectRelatedEmployeeFromOCStepDefs {
+public class SelectRelatedEmployeeFromOC_Step_Defs {
 
     EmployeeDetailPage employeeDetailPage = new EmployeeDetailPage();
     String firstRelatedEmployeeNameText;
